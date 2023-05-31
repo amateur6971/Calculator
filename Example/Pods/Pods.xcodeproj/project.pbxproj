@@ -58,7 +58,7 @@
 		78DD8F442B7830A9E147953175775907 /* Pods-calculator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculator_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8447C05106D41DE7AE34D4E174E7E425 /* Pods-calculator_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calculator_Example-umbrella.h"; sourceTree = "<group>"; };
 		89B1BE851C4D96EE75842452B99905C0 /* Pods-calculator_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-calculator_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		909500649BB1D9DD799A56B5289C05ED /* Pods-calculator_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-calculator_Tests"; path = Pods_calculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		909500649BB1D9DD799A56B5289C05ED /* Pods_calculator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calculator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92090B772A271577005ABA9F /* CalculatorFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorFunction.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD54D1C99732379D75BE1C6999C92615 /* calculator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = calculator.modulemap; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 		B72B66FCA427EFB512A3629FC885F1EB /* Pods-calculator_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calculator_Example.modulemap"; sourceTree = "<group>"; };
 		B7F239B4CA4F92971F4EC24E617B9185 /* calculator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = calculator.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		C841C2B31CB6B55E5DA3FA38C9640429 /* Pods-calculator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-calculator_Tests.modulemap"; sourceTree = "<group>"; };
-		D88028F90C5EA67F9D7DE62CC24CD1F9 /* Pods-calculator_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-calculator_Example"; path = Pods_calculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD0FDDA200C03F21DA3707BC018577DE /* calculator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = calculator; path = calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88028F90C5EA67F9D7DE62CC24CD1F9 /* Pods_calculator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calculator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD0FDDA200C03F21DA3707BC018577DE /* calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3EA25AF56917D3ED54C3C2EEE279B2 /* Pods-calculator_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-calculator_Example-dummy.m"; sourceTree = "<group>"; };
 		F308BC94A47BC17B9FA972BB26AC90EA /* Pods-calculator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-calculator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F7CD31D46359DCBA073D37D8A3DBD005 /* Pods-calculator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-calculator_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,9 +144,9 @@
 		4A6FF5E9A6CAE1BB7EDEE213C6E33928 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD0FDDA200C03F21DA3707BC018577DE /* calculator */,
-				D88028F90C5EA67F9D7DE62CC24CD1F9 /* Pods-calculator_Example */,
-				909500649BB1D9DD799A56B5289C05ED /* Pods-calculator_Tests */,
+				DD0FDDA200C03F21DA3707BC018577DE /* calculator.framework */,
+				D88028F90C5EA67F9D7DE62CC24CD1F9 /* Pods_calculator_Example.framework */,
+				909500649BB1D9DD799A56B5289C05ED /* Pods_calculator_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -280,7 +280,7 @@
 			);
 			name = calculator;
 			productName = calculator;
-			productReference = DD0FDDA200C03F21DA3707BC018577DE /* calculator */;
+			productReference = DD0FDDA200C03F21DA3707BC018577DE /* calculator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6BBCF5379E988782AF5097D624543E2F /* Pods-calculator_Tests */ = {
@@ -299,7 +299,7 @@
 			);
 			name = "Pods-calculator_Tests";
 			productName = Pods_calculator_Tests;
-			productReference = 909500649BB1D9DD799A56B5289C05ED /* Pods-calculator_Tests */;
+			productReference = 909500649BB1D9DD799A56B5289C05ED /* Pods_calculator_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E672475523B8E080FD9542EFDC796943 /* Pods-calculator_Example */ = {
@@ -318,7 +318,7 @@
 			);
 			name = "Pods-calculator_Example";
 			productName = Pods_calculator_Example;
-			productReference = D88028F90C5EA67F9D7DE62CC24CD1F9 /* Pods-calculator_Example */;
+			productReference = D88028F90C5EA67F9D7DE62CC24CD1F9 /* Pods_calculator_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -469,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,7 +496,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/calculator/calculator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/calculator/calculator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/calculator/calculator.modulemap";
 				PRODUCT_MODULE_NAME = calculator;
@@ -527,7 +527,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-calculator_Tests/Pods-calculator_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-calculator_Tests/Pods-calculator_Tests.modulemap";
@@ -560,7 +560,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-calculator_Example/Pods-calculator_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-calculator_Example/Pods-calculator_Example.modulemap";
@@ -631,7 +631,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -660,7 +660,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-calculator_Tests/Pods-calculator_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-calculator_Tests/Pods-calculator_Tests.modulemap";
@@ -694,7 +694,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-calculator_Example/Pods-calculator_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-calculator_Example/Pods-calculator_Example.modulemap";
@@ -727,7 +727,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/calculator/calculator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/calculator/calculator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/calculator/calculator.modulemap";
 				PRODUCT_MODULE_NAME = calculator;
