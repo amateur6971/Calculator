@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "0.1.0",
+  "summary": "A short description of calculator.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Akanksha Singh/calculator",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Akanksha Singh": "office6971aks@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Akanksha Singh/calculator.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "calculator/Classes/**/*"
+}

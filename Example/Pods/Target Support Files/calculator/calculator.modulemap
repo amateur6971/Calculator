@@ -1,0 +1,6 @@
+framework module calculator {
+  umbrella header "calculator-umbrella.h"
+
+  export *
+  module * { export * }
+}
