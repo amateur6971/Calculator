@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'calculator'
+  s.name             = 'ASCalculator'
   s.version          = '0.0.1'
   s.summary          = 'This app provides user facility to calculate the result.'
 
